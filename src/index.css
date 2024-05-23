@@ -9,4 +9,5 @@ html {
 
 section {
   scroll-snap-align: center;
+  min-height: 100svh;
 }

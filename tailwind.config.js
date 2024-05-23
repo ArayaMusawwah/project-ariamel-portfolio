@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
   theme: {
     extend: {
       colors: {
         primary: {
-          bg: "#03001C",
+          bg: "#0c0c1d",
           text: "#F6F5F2"
         },
         accent: {
@@ -17,6 +17,9 @@ export default {
       },
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"]
+      },
+      maxWidth: {
+        "8xl": "1366px"
       }
     }
   },

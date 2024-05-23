@@ -12,6 +12,11 @@ const App = () => {
           <Navbar />
           <Hero />
         </section>
+
+        <Parallax type={"services"} />
+        <section id="services"></section>
+        <Parallax />
+
         <section>
           <Parallax />
         </section>
@@ -20,7 +25,9 @@ const App = () => {
           <Parallax />
         </section>
         <section id="portfolio">tiga</section>
+
         <section id="contact">empat</section>
+
         <section id="about">lima</section>
       </main>
     </>

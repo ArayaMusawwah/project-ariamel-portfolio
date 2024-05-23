@@ -14,7 +14,7 @@ export default {
           100: "#891652"
         },
         accent2: {
-          100: "#EABE6C"
+          100: "rgb(251,146,60)"
         }
       },
       fontFamily: {

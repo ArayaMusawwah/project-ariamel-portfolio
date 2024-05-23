@@ -17,7 +17,7 @@ const ListContainer = ({ variants }: { variants: Variants }) => {
             {data.judul}
           </h1>
           <p className="group-hover:text-black">{data.deskripsi}</p>
-          <button className="w-full bg-orange-400 p-3 text-center">Go</button>
+          <button className="w-full bg-accent2-100 p-3 text-center">Go</button>
         </div>
       ))}
     </motion.div>

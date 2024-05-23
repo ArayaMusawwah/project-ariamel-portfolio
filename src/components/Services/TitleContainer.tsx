@@ -14,15 +14,15 @@ const TitleContainer = ({ variants }: { variants: Variants }) => {
           className="h-[100px] w-[300px] rounded-full object-cover"
         />
         <h1 className="cursor-default text-8xl font-[100]">
-          <b className="hover:text-orange-400">Unique</b> Ideas
+          <b className="hover:text-accent2-100">Unique</b> Ideas
         </h1>
       </div>
 
       <div className="flex cursor-default items-center gap-12">
         <h1 className="text-8xl font-[100]">
-          <b className="hover:text-orange-400">For Your</b> Business
+          <b className="hover:text-accent2-100">For Your</b> Business
         </h1>
-        <button className="h-[100px] w-[300px] rounded-full border-none bg-orange-400 text-2xl ">
+        <button className="h-[100px] w-[300px] rounded-full border-none bg-accent2-100 text-2xl ">
           WHAT WE DO?
         </button>
       </div>

@@ -27,8 +27,8 @@ const scrollVariant: Variants = {
     transition: {
       duration: 1,
       repeat: Infinity,
-      repeatType: "loop",
-      ease: "easeInOut"
+      repeatType: "mirror",
+      ease: "easeIn"
     }
   }
 }

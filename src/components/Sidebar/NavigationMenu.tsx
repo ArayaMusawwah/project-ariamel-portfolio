@@ -1,4 +1,4 @@
-import { links } from "@/data/general"
+import { links } from "@/data/GeneralTypes"
 import { motion } from "framer-motion"
 
 const ulVariants = {

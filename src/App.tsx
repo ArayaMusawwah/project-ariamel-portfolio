@@ -1,5 +1,6 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Parallax from "./components/Parallax/index"
 import Sidebar from "./components/Sidebar"
 
 const App = () => {
@@ -11,9 +12,15 @@ const App = () => {
           <Navbar />
           <Hero />
         </section>
-        <section id="services">dua</section>
+
+        <Parallax type={"services"} />
+        <section id="services"></section>
+        <Parallax />
+
         <section id="portfolio">tiga</section>
+
         <section id="contact">empat</section>
+
         <section id="about">lima</section>
       </main>
     </>

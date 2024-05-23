@@ -1,9 +1,9 @@
-import { socials } from "@/data/general"
+import { socials } from "@/data/GeneralTypes"
 
 const Navbar = () => {
   return (
     <header className="h-[100px] px-64 pb-4 ">
-      <div className="max-w-8xl m-auto flex h-full w-full items-center justify-between">
+      <div className="m-auto flex h-full w-full max-w-8xl items-center justify-between">
         <h1 className="font-dmsans text-2xl font-bold">Araya Musawwah</h1>
         <nav className="inline-flex gap-2">
           {socials.map((social) => (

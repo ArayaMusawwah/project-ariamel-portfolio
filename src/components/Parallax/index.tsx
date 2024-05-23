@@ -17,8 +17,8 @@ const Parallax: React.FC<Props> = ({ type }) => {
   const yBackground = useTransform(scrollYProgress, [0, 1], ["0%", "100%"])
 
   return (
-    <section
-      className={`relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b from-[#111132] ${type === "services" ? "to-[#0c0c1d]" : "to-[#505064]"}`}
+    <div
+      className={`from-primary-bg2 relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b ${type === "services" ? "to-primary-bg" : "to-[#505064]"}`}
       ref={divRef}
     >
       <motion.h1 className="text-5xl font-semibold" style={{ y: yText }}>
@@ -26,7 +26,7 @@ const Parallax: React.FC<Props> = ({ type }) => {
       </motion.h1>
 
       <BackgroundParallax yBackground={yBackground} type={type} />
-    </section>
+    </div>
   )
 }
 export default Parallax

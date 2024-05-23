@@ -1,4 +1,4 @@
-import { socials } from "@/data/GeneralTypes"
+import { socials } from "@/data/generalData"
 
 const Navbar = () => {
   return (

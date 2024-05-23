@@ -17,7 +17,7 @@ const variants: Variants = {
 const SlidingText = () => {
   return (
     <motion.div
-      className="absolute bottom-0 w-10/12 whitespace-nowrap text-[50vh] text-white/5"
+      className="absolute bottom-[-14rem] w-10/12 whitespace-nowrap text-[40vh] text-white/5"
       variants={variants}
       initial="initial"
       animate="animate"

@@ -18,7 +18,6 @@ const index = () => {
 
   return (
     <div ref={ref} className="relative">
-      saya suka
       <div className="sticky left-0 top-0 pt-12">
         <h1 className="py-2 text-center text-5xl font-bold text-accent2-100">
           Featured Works

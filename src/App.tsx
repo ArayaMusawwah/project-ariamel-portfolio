@@ -5,6 +5,7 @@ import Parallax from "./components/Parallax"
 import Portfolio from "./components/Portfolio"
 import Services from "./components/Services"
 import Sidebar from "./components/Sidebar"
+import { ToastContainer, toast } from "react-toastify"
 
 const App = () => {
   return (
@@ -33,9 +34,11 @@ const App = () => {
         <section id="contact">
           <Contact />
         </section>
-
-        <section id="about">lima</section>
       </main>
+      <ToastContainer />
+      <button type="button" onClick={() => toast("babi")}>
+        pencet
+      </button>
     </>
   )
 }

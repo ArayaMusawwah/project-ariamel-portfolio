@@ -68,7 +68,7 @@ const HeroText: React.FC = () => {
       <motion.img
         src="/scroll.png"
         alt=""
-        className="mx-auto w-10 lg:mx-0"
+        className="mx-auto hidden w-10 md:block lg:mx-0"
         variants={scrollVariant}
       />
     </motion.div>

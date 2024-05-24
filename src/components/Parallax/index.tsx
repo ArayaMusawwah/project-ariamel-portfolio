@@ -18,7 +18,7 @@ const Parallax: React.FC<Props> = ({ type }) => {
 
   return (
     <div
-      className={`from-primary-bg2 relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b ${type === "services" ? "to-primary-bg" : "to-[#505064]"}`}
+      className={`relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-gradient-to-b from-primary-bg2 ${type === "services" ? "to-primary-bg" : "to-[#505064]"}`}
       ref={divRef}
     >
       <motion.h1 className="text-5xl font-semibold" style={{ y: yText }}>

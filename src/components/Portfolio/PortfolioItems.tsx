@@ -33,7 +33,9 @@ const PortfolioItems = ({ data }: { data: IPortfolio }) => {
             <h2 className="text-balance text-4xl font-bold lg:text-6xl ">
               {data.judul}
             </h2>
-            <p className="line-clamp-4 min-w-full px-4">{data.deskripsi}</p>
+            <p className="line-clamp-4 min-w-full px-4 md:line-clamp-2 lg:line-clamp-none">
+              {data.deskripsi}
+            </p>
             <button className="rounded-lg bg-accent2-100 px-20 py-2 text-black">
               See Demo
             </button>

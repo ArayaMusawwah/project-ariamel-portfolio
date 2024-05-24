@@ -4,7 +4,7 @@ import ProgressBar from "./ProgressBar"
 import PortfolioItems from "./PortfolioItems"
 import { portfolioData } from "@/data/generalData"
 
-const index = () => {
+const Portfolio = () => {
   const ref = useRef<HTMLDivElement>(null)
 
   const { scrollYProgress } = useScroll({
@@ -18,7 +18,7 @@ const index = () => {
 
   return (
     <div ref={ref} className="relative">
-      <div className="sticky left-0 top-0 pt-12">
+      <div className="sticky left-0 top-20">
         <h1 className="py-2 text-center text-5xl font-bold text-accent2-100">
           Featured Works
         </h1>
@@ -30,4 +30,4 @@ const index = () => {
     </div>
   )
 }
-export default index
+export default Portfolio

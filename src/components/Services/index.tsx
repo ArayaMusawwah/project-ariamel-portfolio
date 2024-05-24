@@ -1,4 +1,4 @@
-import { Variants, motion, useInView } from "framer-motion"
+import { Variants } from "framer-motion"
 import ListContainer from "./ListContainer"
 import TextContainer from "./TextContainer"
 import TitleContainer from "./TitleContainer"

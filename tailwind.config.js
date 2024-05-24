@@ -15,6 +15,11 @@ export default {
         },
         accent2: {
           100: "rgb(251,146,60)"
+        },
+        dev: {
+          1: "rgb(255,0,0)",
+          2: "rgb(0,255,0)",
+          3: "rgb(0,0,255)"
         }
       },
       fontFamily: {

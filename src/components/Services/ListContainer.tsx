@@ -4,7 +4,7 @@ import { motion, Variants } from "framer-motion"
 const ListContainer = ({ variants }: { variants: Variants }) => {
   return (
     <motion.div
-      className="m-auto grid max-w-8xl flex-[2] grid-cols-2 xl:grid-cols-4"
+      className="m-auto grid max-w-8xl flex-[2] grid-cols-2 p-4 xl:grid-cols-4"
       id="list-container"
       variants={variants}
     >

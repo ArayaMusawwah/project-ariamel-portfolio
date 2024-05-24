@@ -3,18 +3,17 @@ import SlidingText from "./SlidingText"
 
 const Hero = () => {
   return (
-    <div className="to-primary-bg2 relative grid min-h-[calc(100vh-100px)] place-items-center overflow-hidden bg-gradient-to-b from-primary-bg selection:bg-transparent">
-      <div className="relative m-auto flex h-full w-full max-w-8xl items-center gap-10 ">
+    <div className="relative flex min-h-[calc(100vh-100px)] items-center justify-center overflow-hidden bg-gradient-to-b from-primary-bg to-primary-bg2 selection:bg-transparent">
+      <div className="absolute m-auto flex h-full w-full max-w-8xl items-start gap-10 lg:items-center">
         <HeroText />
         <SlidingText />
-      </div>
-
-      <div>
-        <img
-          src="/hero.png"
-          alt="hero's image"
-          className="absolute bottom-0 right-32 h-full"
-        />
+        <div className="absolute bottom-0 right-1/2 h-[60%] w-1/2  translate-x-1/2 justify-center lg:right-0 lg:h-full lg:translate-x-0">
+          <img
+            src="/hero.png"
+            alt="hero's image"
+            className="mx-auto h-full object-cover object-center"
+          />
+        </div>
       </div>
     </div>
   )

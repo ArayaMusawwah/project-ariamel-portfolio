@@ -36,7 +36,7 @@ const scrollVariant: Variants = {
 const HeroText: React.FC = () => {
   return (
     <motion.div
-      className="flex flex-col gap-10"
+      className="absolute z-10 flex w-full flex-col gap-4 px-4 text-center lg:gap-10 lg:text-left"
       variants={variants}
       initial="initial"
       animate="animate"
@@ -47,21 +47,28 @@ const HeroText: React.FC = () => {
       >
         Araya Musawwah
       </motion.h1>
-      <motion.h2 className="max-w-3xl text-7xl font-bold" variants={variants}>
+
+      <motion.h2
+        className="max-w-3xl text-3xl font-bold md:text-5xl lg:text-7xl"
+        variants={variants}
+      >
         Fullstack Developer and React Developer
       </motion.h2>
+
       <motion.div className="space-x-5" variants={variants}>
         <button className="rounded-lg border border-white bg-transparent p-4 transition hover:bg-white hover:text-black">
           See The Latest Works
         </button>
+
         <button className="rounded-lg border border-white bg-white p-4 text-black transition hover:bg-transparent hover:text-white">
           Contact Me
         </button>
       </motion.div>
+
       <motion.img
         src="/scroll.png"
         alt=""
-        className="w-10"
+        className="mx-auto w-10 lg:mx-0"
         variants={scrollVariant}
       />
     </motion.div>

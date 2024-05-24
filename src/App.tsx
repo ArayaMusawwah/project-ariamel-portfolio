@@ -1,4 +1,5 @@
 import Contact from "./components/Contact"
+import Cursor from "./components/Cursor"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Parallax from "./components/Parallax"
@@ -12,28 +13,29 @@ const App = () => {
     <>
       <Sidebar />
       <main className="min-h-screen bg-primary-bg font-dmsans text-primary-text">
+        <Cursor />
         <section id="homepage">
           <Navbar />
           <Hero />
         </section>
 
-        <section>
+        {/* <section>
           <Parallax type={"services"} />
-        </section>
+        </section> */}
 
-        <section id="services">
+        {/*  <section id="services">
           <Services />
-        </section>
+        </section> */}
 
-        <section>
+        {/* <section>
           <Parallax />
-        </section>
+        </section> */}
 
-        <Portfolio />
+        {/* <Portfolio /> */}
 
-        <section id="contact">
+        {/* <section id="contact">
           <Contact />
-        </section>
+        </section> */}
       </main>
       <ToastContainer />
     </>

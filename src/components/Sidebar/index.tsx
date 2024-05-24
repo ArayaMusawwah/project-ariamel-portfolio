@@ -28,7 +28,7 @@ const Sidebar = () => {
   return (
     <>
       <motion.aside
-        className={`fixed left-0 top-0 z-50 h-screen w-1/6 bg-slate-100 ${!open ? "cursor-pointer" : "cursor-default"}`}
+        className={`fixed left-0 top-0 z-50 h-screen w-10/12 bg-slate-100 md:w-1/2 lg:w-1/6 ${!open ? "cursor-pointer" : "cursor-default"}`}
         variants={variants}
         initial="closed"
         animate={open ? "open" : "closed"}

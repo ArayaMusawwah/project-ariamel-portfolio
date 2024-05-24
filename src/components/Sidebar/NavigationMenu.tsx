@@ -32,7 +32,7 @@ const NavigationMenu = ({
 }) => {
   return (
     <motion.ul
-      className="flex h-full w-full flex-col items-center justify-center gap-2"
+      className="flex h-full w-full flex-col items-center justify-center gap-4 text-3xl lg:gap-2 xl:text-xl"
       variants={ulVariants}
     >
       {links.map((link, i) => (

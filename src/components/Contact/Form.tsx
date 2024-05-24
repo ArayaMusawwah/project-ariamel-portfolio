@@ -50,7 +50,7 @@ const Form = () => {
 
   return (
     <motion.form
-      className="relative flex flex-col gap-6"
+      className="relative flex w-full flex-col gap-2 text-sm lg:gap-6 lg:text-base"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1, delay: 4 }}
@@ -60,7 +60,7 @@ const Form = () => {
       <input
         type="text"
         required
-        className="z-10 rounded-md border-2 border-white bg-transparent p-5"
+        className="z-10 rounded-md border-2 border-white bg-transparent px-5 py-2 lg:py-5"
         placeholder="Name"
         name="name"
       />
@@ -68,7 +68,7 @@ const Form = () => {
       <input
         type="text"
         required
-        className="rounded-md border-2 border-white bg-transparent p-5"
+        className="rounded-md border-2 border-white bg-transparent px-5 py-2 lg:py-5"
         placeholder="Email"
         name="email"
       />
@@ -82,7 +82,7 @@ const Form = () => {
 
       <button
         type="submit"
-        className="bg-accent2-100 p-5 font-semibold text-black"
+        className="bg-accent2-100 px-5 py-2 font-semibold text-black lg:py-5"
       >
         {isLoading ? "Sending..." : "Send"}
       </button>

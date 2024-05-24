@@ -8,7 +8,12 @@ const PhoneSvg = ({ isInView }: { isInView: boolean }) => {
       transition={{ duration: 1, delay: 3 }}
       className="absolute m-auto stroke-accent2-100"
     >
-      <svg width="450px" height="450px" viewBox="0 0 32.666 32.666">
+      <svg
+        width="450px"
+        height="450px"
+        viewBox="0 0 32.666 32.666"
+        className="size-[200px] lg:size-[450px]"
+      >
         <motion.path
           strokeWidth={0.2}
           fill="none"

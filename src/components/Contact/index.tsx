@@ -25,7 +25,7 @@ const Contact = () => {
 
   return (
     <motion.div
-      className="m-auto flex h-screen max-w-8xl items-center justify-between"
+      className="m-auto flex h-screen max-w-8xl flex-col items-center justify-between lg:flex-row"
       variants={variants}
       initial="initial"
       whileInView="animate"

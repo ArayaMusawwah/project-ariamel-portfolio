@@ -33,9 +33,9 @@ const App = () => {
 
         <Portfolio />
 
-        {/* <section id="contact">
+        <section id="contact">
           <Contact />
-        </section> */}
+        </section>
       </main>
       <ToastContainer />
     </>

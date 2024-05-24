@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --warna-utama: #fefefe;
+}
+
 html {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;

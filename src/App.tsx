@@ -1,3 +1,4 @@
+import Contact from "./components/Contact"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Parallax from "./components/Parallax"
@@ -29,7 +30,9 @@ const App = () => {
 
         <Portfolio />
 
-        <section id="contact">empat</section>
+        <section id="contact">
+          <Contact />
+        </section>
 
         <section id="about">lima</section>
       </main>

@@ -1,6 +1,7 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Parallax from "./components/Parallax"
+import Portfolio from "./components/Portfolio"
 import Services from "./components/Services"
 import Sidebar from "./components/Sidebar"
 
@@ -26,7 +27,7 @@ const App = () => {
           <Parallax />
         </section>
 
-        <section id="portfolio">tiga</section>
+        <Portfolio />
 
         <section id="contact">empat</section>
 

@@ -24,14 +24,15 @@ const variants: Variants = {
 
 const Services = () => {
   const ref = useRef<HTMLDivElement>(null)
-  const inView = useInView(ref, { margin: "-100px" })
+  // const inView = useInView(ref, { margin: "-100px" })
 
   return (
-    <motion.div
-      className="justfiy-center absolute flex h-full w-full flex-col items-center bg-gradient-to-b from-primary-bg to-primary-bg2 py-2"
-      variants={variants}
-      initial="initial"
-      animate={inView && "animate"}
+    <div
+      className="justfiy-center absolute flex h-full w-full flex-col items-center space-y-2 bg-gradient-to-b from-primary-bg to-primary-bg2 py-4"
+      // variants={variants}
+      // animate={inView && "animate"}*/
+      // initial="initial"
+      // animate={"animate"}
       ref={ref}
     >
       <TextContainer variants={variants} />
@@ -39,7 +40,7 @@ const Services = () => {
       <TitleContainer variants={variants} />
 
       <ListContainer variants={variants} />
-    </motion.div>
+    </div>
   )
 }
 export default Services
